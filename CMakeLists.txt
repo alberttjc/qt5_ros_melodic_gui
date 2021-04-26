@@ -7,7 +7,7 @@ add_definitions(-std=c++11 -fPIC -Wall -Wextra)
 # CATKIN #
 ##########
 find_package(catkin_simple REQUIRED)
-catkin_simple(ALL_DEPS_REQUIRED)
+catkin_simple()
 
 ##################
 # QT ENVIRONMENT #
